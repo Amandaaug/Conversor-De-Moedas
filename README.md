@@ -17,13 +17,14 @@ Este é um conversor de moedas interativo desenvolvido em Java. A aplicação pe
 
 ### Pré-requisitos
 
- Certifique-se de que você tem o ambiente de desenvolvimento Java configurado, incluindo o JDK.
+*     Certifique-se de que você tem o ambiente de desenvolvimento Java configurado, incluindo o JDK.
 
 1.  **Obtenha uma Chave de API:** Crie uma conta gratuita na [ExchangeRate-API](https://www.exchangerate-api.com/) para obter sua chave de acesso.
 2.  **Adicione a Biblioteca Gson:** Baixe o arquivo `.jar` do [Gson](https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar) e salve-o em uma pasta chamada `library` na raiz do projeto.
 
 ### Compilação e Execução
-1.  Abra o terminal na pasta raiz do projeto (`ConversorDeMoedas`).
+
+1.  Abra o terminal na pasta raiz do projeto.
 2.  Substitua `SUA_CHAVE_AQUI` no arquivo `Main.java` pela sua chave real da API.
 3.  Compile os arquivos Java com o seguinte comando:
     ```bash
@@ -34,6 +35,7 @@ Este é um conversor de moedas interativo desenvolvido em Java. A aplicação pe
     java -cp ".;library/gson-2.10.1.jar;src/main/java" com.alura.conversor.Main
     ```
 5.  Siga as instruções do menu para realizar as conversões.
+
 
 ---
 
